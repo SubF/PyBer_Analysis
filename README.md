@@ -1,27 +1,18 @@
 # PyBer_Analysis
 
-## Overview of Election Audit
-The election comission has requested a more robust data set than what was included in the original election audit results. The following will be added to the election audit:
-1. Voter turnout for each county
-2. Percentage of votes from each county out of the total count
-3. County with the highest turnout
+## Overview of the Analysis
+V. Isualize would like to see the ride-sharing data by the different city types of Rural, Suburban, and Urban by weekly fares. A multiple-line graph will be used to show a visual of the results.
 
-### Election-Audit Results 
-- A total of 369,711 votes were cast in this congressional election
+### Results 
+Rural, Suburban, and Urban city types have the following differences:
+- Total Rides are low for Rural, medium for Suburban, and high for Urban which was expected based on population density.
+- Total Drivers reflected similar results as total rides. Rural and Suburban had more riders than drivers but Urban on the other hand had significantly more drivers that rides which is concerning. This will significantly lower driver income.
+- Total Fares was as expected with the most fares for Urban, middle for Suburban, and least for Rural.
+- Average Fare per Rider had the highest for Rural, medium for Suburban, and lowest for Urban. This was expected as Rural should travel the longest distance and Suburban travel less than Urban. 
+- Average Fare per Driver shows the highest fare for Rural, medium for Suburban, and lowest for Urban. This matches the total drivers to total rides ratio showing there are too many drivers for Urban areas.
 
-- There were 3 counties in the election with the following vote distribution:
-  1. Jefferson had 38,855 votes which accounted for 10.5% of the total votes
-  2. Denver had 306,055 votes which accounted for 82.8% of the total votes
-  3. Arapahoe had 24,801 votes which accounted for 6.7% of the total votes
-
-- Denver county had the largest number of votes
-
-- The breakdown of candidate votes are as follows:
-  1. Charles Casper Stockham had 85,213 votes which accounted for 23.0% of the total votes
-  2. Diana DeGette had 272,892 votes which accounted for 73.8% of the total votes
-  3. Raymon Anthony Doane had 11,606 votes which accounted for 3.1% of the total votes
-
-- Diana DeGette won the election with 272,892 votes which accounted for 73.8% of the total votes cast
-
-### Election-Audit Summary: 
-This script can be reused for any election with minor changes to the code. Due to how this script is coded it can scale to account for any number of counties, candidates, or votes. If provided the data, this script can be edited to analyze other information such as voter demographics or voter turnout. In addition, the script can also be edited to output multiple text files where one can be released to the public and a private text file with more detailed breakdowns of the voters can be kept private.
+### Summary
+I would reccommend the following:
+1. Lower the amount of Urban drivers. There are currently more drivers than riders which will make it hard to retain drivers in the long term.
+2. Increase prices or add surge pricing to Suburban and Urban areas. Suburban and Urban living should have more traffic and demand so rides and drivers should see higher fares. 
+3. Add cheaper pricing or coupons for times of low demand to increase rides during lower ride weeks.
